@@ -77,6 +77,18 @@ a {
     color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+    .card {
+        margin: 100px;
+        padding: auto;
+        height: fit-content;
+    }
+
+    .Links {
+        width: 400px;
+    }
+}
+
 
 @media screen and (max-width: 430px) {
     img {
@@ -85,7 +97,7 @@ a {
     }
     
     .Links {
-        width: 300px;
+        width: 200px;
         font-weight: 600;
     }
 
@@ -99,3 +111,5 @@ a {
         margin-bottom: 0px;
     }
 }
+
+
